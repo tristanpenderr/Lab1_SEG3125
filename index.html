@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Website Questionnaire</title>
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">   
+    </head>
+    <div class="mainBody">
+    <body style = "background-color: #E0D2C3">
+        <h1>Lets Book a Vacation Rental!</h1>
+        <h2>Visit and Explore Airbnb : <a href="https://www.airbnb.ca/">https://www.airbnb.ca/</a></h2>
+        <p>
+            Click on the image below to visit and explore the Airbnb website. Then fill out a short questionnaire about your experience!
+        </p>
+        <div class="image">
+            <a href="https://www.airbnb.ca/">
+                <img src="images/pic1.jpg" alt="https://www.airbnb.ca/">
+            </a>	
+        </div>
+
+        <form name="Website Questionnaire">
+            <div class="Questions">
+                <h3>What is your first name?</h3>
+                <input type="text" name="lastname">
+                <br>
+
+                <h3>What is your last name?</h3>
+                <input type="text" name="lastname">
+
+                <br>
+
+                <h3>After using the website, would you recommend it to a friend?</h3>
+                <input type="radio" name="friend" value="yes">
+                <label>Yes</label><br>
+                <input type="radio" name="friend" value="no">
+                <label>No</label>
+                <br>
+
+                <h3>How would you describe the websites experience in less then 5 words?</h3>
+                <textarea type="text" name="describe">
+                </textarea>
+
+                <br>
+
+                <h3>How easy is it to navigate Airbnb?</h3>
+                <select name = "usability" id = "usability">
+                    <option value="veryEasy">Very Easy</option>
+                    <option value="easy">Easy</option>
+                    <option value="average">Average</option>
+                    <option value="difficult">Difficult</option>
+                    <option value="impossible">Impossible</option>
+                </select>
+
+                <br>
+                <h3>Which aspects of the UI do you like?</h3>
+                <input type="checkbox" name="feature" value="colors">Colors<br/>
+                <input type="checkbox" name="feature" value="layout">Layout<br/>
+                <input type="checkbox" name="feature" value="visuals">Photos<br/>
+                <input type="checkbox" name="feature" value="usability">Ease of Use<br/>
+                
+                <br>
+                
+                
+                <h3>Please enter any additional comments which could be useful</h3>
+
+                    <label for="additional">Additional Information: </label><br>
+                    <textarea type="text" id="additional" name="additional">
+                        
+                    </textarea><br><br>
+
+            
+            </div>
+            <input type="submit" value="Submit" id="submit">
+            <input type="reset" id = "reset" value="Reset">
+        </form>
+
+    </body>
+    </div>
+    <footer class="artistname">
+        <p>Artist: Anonymous UI Picaso</p>
+</footer>
+
+
+</html>

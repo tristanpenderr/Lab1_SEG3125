@@ -1,0 +1,99 @@
+img {
+    width : 80%;
+	display: block;
+	margin: 0 auto;
+	align: center;
+    border-radius: 5%;
+  }
+p{
+	font-family: Raleway;
+	
+	font-size: 23px;
+	font-weight: 800;
+	
+	padding-bottom: 20px;
+
+
+
+}
+
+div {  
+width: auto;  
+padding: 15px;  
+    
+}
+h1{
+	font-family: Raleway;
+	
+	
+	font-weight: 800;
+
+	
+}
+
+h2{
+	font-family: Raleway;
+	
+	
+	font-weight: 800;
+}
+
+h3{
+	font-family: Raleway;
+	
+	
+	font-weight: 800;
+	
+	
+
+	}
+.signature{
+	font-family: Raleway;
+	
+	font-size: 10px;
+	font-weight: 800;
+	
+	padding-bottom: 0px;
+}
+
+.Questions{
+	margin: 1.5%;
+	
+}
+
+#additional{
+    height: 100px;
+    width:400px;
+  }
+#describe{
+    height: 100px;
+    width: 400px;
+}
+
+.mainBody{
+    background-color: #BCD8B7;
+  width: 500px;
+  border: 15px solid #35CE8D;
+  padding: 50px;
+  margin: 20px;
+    margin:0 auto;
+}
+
+input[type="submit"]{
+    padding:5px 15px; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    align: center;
+    background-color: #35CE8D;
+    
+}
+input[type="reset"]{
+    padding:5px 15px; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    align: center;
+    background-color: #35CE8D;
+
+}
