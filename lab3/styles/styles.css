@@ -90,14 +90,7 @@ button.accordion{
     text-align: left;
 }
 
-.tabcontent button{
-    font-family: Raleway;
-  font-weight: 800;
-  text-transform: uppercase;
-    color: #837A75;
-    font-size : 15px;
-    text-align: left;
-}
+
 
 .tabcontent{
     font-family: Raleway;
@@ -107,6 +100,26 @@ button.accordion{
     font-size : 15px;
     text-align: left;  
 }
+
+.tabcontent button{
+  font-family: Raleway;
+font-weight: 800;
+text-transform: uppercase;
+  color: #837A75;
+  font-size : 15px;
+  text-align: left;
+}
+
+select{
+  font-family: Raleway;
+font-weight: 800;
+text-transform: uppercase;
+  color: #837A75;
+  font-size : 15px;
+  text-align: left;
+
+}
+
 
 .displayProduct{
     font-family: Raleway;

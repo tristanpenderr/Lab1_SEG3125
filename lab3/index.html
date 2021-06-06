@@ -13,12 +13,12 @@
 
 
 
-<button class="accordion"> Step 1: Client Information</button>
+<button class="accordion"> Step 1: Enter Your Information</button>
 <!-- Tab content -->
 <div id="Client" class="tabcontent">
-  <h3>Client Information</h3>
-  <p>Tell us a bit about you.</p>
-	<p>Which statement matches you? <br>
+  <h3>Your Information</h3>
+  <p>Tell us a bit about yourself.</p>
+	<p>Which statement is true about you? <br>
   <input type = "checkbox" id = "organic" name = "restriction" value = "organic" />
   <label for = "organic">I buy Organic foods.</label><br>
   <input type = "checkbox" id = "nut_free" name = "restriction" value = "nut_free"/>
@@ -32,9 +32,9 @@
 
 <button class="accordion"> Step 2: Choose Your Products</button>
 <div id="Products" class="tabcontent">
-  <h3>Your targeted products</h3>
+  <h3>Your personalized list of available products.</h3>
   <p>We preselected products based on your profile.</p>
-    <p>Choose items to buy:</p>
+    <p>Please select and add items to your cart. </p>
 	 <div id="displayProduct" class="displayProduct"></div>
     <br>
 	 <button id="addCart" type="button" class="block" onclick="selectedItems()">
@@ -48,6 +48,13 @@
   <h3>Cart</h3>
   <p>View the contents of your cart.</p>
   <div id="displayCart"></div>
+  <p>Would you like to pickup your items or have your items delivered?
+    <select name="shoppingMethod" id="shoppingMethod">
+      <option value="pickup">Pickup</option>
+      <option value="delivery">Delivery</option>
+    </select>
+  </p>
+  <button>Checkout</button>
 </div>
 </div>
 
