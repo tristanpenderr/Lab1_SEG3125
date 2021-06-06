@@ -1,0 +1,135 @@
+/* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
+
+/* Style the tab */
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+body{
+    background-color:#605B56;
+}
+.accordion {
+  overflow: hidden;
+  background-color: #837A75;
+    text-align: center;
+  width : 100%;
+  font-size: 20px;
+  border: 1px solid #ccc;
+
+
+}
+
+/* Style the buttons that are used to open the tab content */
+button.accordion{
+  background-color:inherit;
+  float: left;
+  border: #DAFEB7;
+  outline: none;
+  cursor: pointer;
+    font-size: 20px;
+  padding: 18px;
+  transition: 0.3s;
+  color: #DAFEB7;
+  font-family: cursive;
+  text-align: left;
+  border: solid;
+  border-width: 2px;
+  border-color: #DAFEB7;
+  
+}
+
+/* Change background color of buttons on hover */
+ button.accordion:hover {
+  background-color: #efccff;
+}
+
+/* Create an active/current tablink class */
+ button.accordion.active {
+  background-color: #b3b3ff;
+
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px solid #DAFEB7;
+  border-top: none;
+}
+.label{
+  color:purple;
+
+}
+
+.tabcontent {
+    background-color: #DAFEB7;
+}
+.tabcontent h3{
+    font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #837A75;
+    font-size: 18px;
+    text-align: left;
+}
+
+.tabcontent p{
+    font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #837A75;
+    font-size : 15px;
+    text-align: left; 
+}
+
+.tabcontent select{
+    font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #837A75;
+    font-size : 15px ;
+    text-align: left;
+}
+
+.tabcontent button{
+    font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #837A75;
+    font-size : 15px;
+    text-align: left;
+}
+
+.tabcontent{
+    font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #837A75;
+    font-size : 15px;
+    text-align: left;  
+}
+
+.displayProduct{
+    font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #837A75;
+}
+
+h2{
+  font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+    color: #ACC18A;
+
+}
+
+p{
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 800;
+  padding-bottom:20px;
+  color : #ACC18A;
+}
+
+
+
