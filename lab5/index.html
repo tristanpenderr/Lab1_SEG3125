@@ -1,0 +1,330 @@
+<!doctype html>
+<!-- Here is a link to the code the documents this code is based on
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+This will help you get started with your code!
+-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <title>Module 5 Lab</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" role="nav">
+        <a class="navbar-brand" href="#">Picaso Physiotherapy</a>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#services"data-toggle="tooltip" data-placement="top" title="See our services selection"><img src="images/physical-therapy.png" alt="logo" style="width:40px;"> Services</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#team" data-toggle="tooltip" data-placement="top" title="Meet our Team"><img src="images/rating.png" alt="logo" style="width:40px;"> Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#booking" data-toggle="tooltip" data-placement="top" title="Schedule an appointment"><img src="images/calendar.png" alt="logo" style="width:40px;"> Schedule an appointment</a>
+              </li>   
+           </ul>
+          </div> 
+    
+        </nav>
+<!--
+I store all of the page information in a container,
+Many websites will use what is called CSS grid layouts, where you will have a header, body, footer and both sides used for ads or other information
+-->
+<div class = "container-lg">
+    <!--
+    Most websites now feature what is called a NavBar.
+    The example I give is quite simple with a logo and some text, but you can use it for many navigational patterns
+    https://getbootstrap.com/docs/5.0/components/navbar/
+    -->
+
+    <div class="jumbotron">
+        <div class="container text-center">
+          <h1><img src="images/company_logo.png" width="130" height="130"> Picaso Physiotherapy</h1>   
+          <h3>Ottawa's #1 Trusted Physiotherapy Clinic</h3>
+   
+          <p>
+              <img src="images/location_pin.png" width="30" height="30">100 Physio Dr, Ottawa, ON, K2E 7U9
+              <img src="images/phone_pin.png" width="30" height="30">613-444-1919
+              <img src="images/email_pin.png" width="40" height="30"> info@picasophysio.io
+        </p>
+        </div>
+      </div>
+      <br>
+      <div id = "services">
+        <hr>
+        <br>
+        <br>
+
+      <div class="row container-text-center">
+        <h2>Services</h2>
+        <br>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-block block-1">
+                    <h4 class="card-title" style="height: 3rem;">Custom Knee-Brace</h4>
+                    <div class="text-center">
+                        <img src="https://www.orthomed.ca/media/catalog/product/m/e/medspec_the_gripper_hinged_knee_brace500.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=550&width=518&canvas=518:550" width="180" height="180"class="img-thumbnail" style="height: 10rem;">
+                        <p>Price : 100$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-block block-2">
+                    <h4 class="card-title"style="height: 3rem;">TMJ Pain Treatment</h4>
+                    <div class="text-center">
+                        <img src="https://www.asmileabove.ca/wp-content/uploads/2018/03/TMJ.jpg" width="250" height="250"class="img-thumbnail" style="height: 10rem;">
+                        <p>Price : 150$</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-block block-3">
+                    <h4 class="card-title"style="height: 3rem;">Vestibular Rehab</h4>
+                    <div class="text-center">
+                        <img src="https://www.manotickphysioworks.ca/files/manotick-physioworks-vestibular-rehab.jpeg" width="200" height="200"class="img-thumbnail" style="height: 10rem;">
+                        <p>Price : 600$</p>
+
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-block block-4">
+                    <h4 class="card-title"style="height: 3rem;">Message Therapy</h4>
+                    <div class="text-center">
+                        <img src="https://www.manotickphysioworks.ca/files/manotick-physioworks-massage-therapy.jpeg" width="200" height="200"class="img-thumbnail" style="height: 10rem;">
+                        <p>Price : 85$</p>
+
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-block block-5">
+                    <h4 class="card-title"style="height: 3rem;">Clinical Pilates</h4>
+                    <div class="text-center">
+                        <img src="https://www.manotickphysioworks.ca/files/IMG4961.jpeg" width="200" height="200"class="img-thumbnail" style="height: 10rem;">
+                        <p>Price : 150$</p>
+
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-block block-6">
+                    <h4 class="card-title"style="height: 3rem;">Acupuncture and Dry Needling</h4>
+                    <div class="text-center">
+                        <img src="https://www.manotickphysioworks.ca/files/manotick-physioworks-acupuncture.jpg" width="200" height="200"class="img-thumbnail" style="height: 10rem;">
+                        <p>Price : 200$</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <!-- Modal -->
+    <br>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Modal title</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    In the body we can add various components. In this example some radio buttons
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards are quite useful when building a website. They are a useful way to organize information.
+    They can be organized using a CSS grid or other layout options.
+    https://getbootstrap.com/docs/5.0/components/card/
+    -->
+<div id = "team">
+    <hr>
+    <br>
+    <br>
+    <h2 class="team">Meet our Team</h2>
+    <div class="row">
+    <div class="col-md-4 col-sm-4">
+        <div class="team-member">
+            <div class="team-img">
+                <img src="https://images.unsplash.com/photo-1617634188383-0c75b1b80f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2978&q=80" width="400" height="400"alt="team member" class="img-responsive">
+            </div>
+            <div class="team-hover">
+                <div class="desk">
+                    <h4>Hi!</h4>
+                    <p>With over 200 years helping people with their physiotherapy needs, I am equipped with the skills and knowledge to help you through a wide array of issues.</p>
+                </div>
+                <div class="s-link">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="team-title">
+            <h4>Pablo Picaso</h4>
+            <span>founder & head physiotherapist</span>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-4">
+        <div class="team-member">
+            <div class="team-img">
+                <img src="https://media.istockphoto.com/photos/modern-rehabilitation-physiotherapy-man-at-work-picture-id1074230704?k=6&m=1074230704&s=612x612&w=0&h=Y2AWAaN7VudSICNyFBHUsaltNwu4N64bnhBmnNqI850=" width="400" height="400"alt="team member" class="img-responsive">
+            </div>
+            <div class="team-hover">
+                <div class="desk">
+                    <h4>Hi!</h4>
+                    <p>I'm Jaime, let's get to work.</p>
+                </div>
+                <div class="s-link">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="team-title">
+            <h4>Jaime Sabartés</h4>
+            <span>physiotherapist</span>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-4">
+        <div class="team-member">
+            <div class="team-img">
+                <img src="https://www.publicdomainpictures.net/pictures/210000/nahled/doctor-1490804718D0I.jpg" width="400" height="400"alt="team member" class="img-responsive">
+            </div>
+            <div class="team-hover">
+                <div class="desk">
+                    <h4>I can help</h4>
+                    <p>As the on-site doctor, I can help with all your sports medecine needs and collaborate closely with your physiotherapist to create a personalizeed treatment plan.</p>
+                </div>
+                <div class="s-link">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="team-title">
+            <h4>Alexa Amazon</h4>
+            <span>Sports medecine doctor</span>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+<hr>
+<form id = "booking">
+    <div class="container-lg">
+        <h2>
+            Schedule an appointment
+        </h2>
+        <br>
+        <h3>Contact Information</h3>
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="name">
+          </div>
+        <div class="form-group">
+            <label for="email-address">Email Address</label>
+            <input type="email" class="form-control" id="email-address" placeholder="physio@domain.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone-number">Phone Number</label>
+            <input type="phone" class="form-control" id="phone-number" placeholder="613-444-1919">
+          </div>
+          <h3>Service Selection</h3>
+          <div class="form-group">
+            <label for="service">Service (You can only book one service offering at a time)</label>
+            <select class="form-control" id="service">
+              <option>Custom Knee-Brace (100$)</option>
+              <option>TMJ Pain Treatment (150$)</option>
+              <option>Vestibular Rehab (600$)</option>
+              <option>Message Therapy (85$)</option>
+              <option>Clinical Pilates (150$)</option>
+              <option>Acupuncture and Dry Needling (200$)</option>
+
+            </select>
+          </div>
+          <h3>Date and time</h3>
+          <div class="form-group">
+            <label for="start">Select a date</label>
+            <input type="date" id="appointment" name="date" min="2021-06-12" max="2018-07-31">
+            <br>
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+          </div>
+          <p></p>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <hr>
+
+
+
+          
+          
+    </div>
+</form>
+
+
+<!-- here we input our javascript helper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+</body>
+
+<footer class="artistname">
+    <p>Website designed by: Anonymous UI Picaso</p>
+  </footer>
+</html>
