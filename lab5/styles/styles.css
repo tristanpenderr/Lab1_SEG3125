@@ -130,3 +130,17 @@ p{
 }
 
 body { padding-top: 65px; }
+
+.error {
+    background-color: yellow;
+    color : red;
+  }
+
+
+  .required {
+    color: red;
+  }
+
+  .btn:hover{
+      color : lightgrey;
+  }
